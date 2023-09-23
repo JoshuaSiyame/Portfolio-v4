@@ -19,7 +19,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: fixed;
     width: 100%;
-    top: 3.3em;
+    top: 0em;
+    z-index: 999;
+    height: 90em;
     transition: display .4s ease-in-out;
 }
 
