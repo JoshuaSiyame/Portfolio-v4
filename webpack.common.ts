@@ -38,7 +38,7 @@ const commonConfig: Configuration = {
                 use: ["style-loader", "css-loader"]
             },
             {
-                test: /\.(png|jpeg|gif)$/i,
+                test: /\.(png|jpg|gif|JPG)$/i,
                 exclude: /node_modules/,
                 use: "file-loader"
             }

@@ -1,0 +1,93 @@
+/* General projects styles */
+#projects{
+    margin: 2em 0em;
+}
+
+/* projects container */
+#projects-container{
+    padding: 0 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* projects header */
+#projects-header{
+    color: #e5e5e5;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* projects card container */
+/* #projects-card-container{} */
+
+/* project card */
+.project-card{
+    padding: 1em;
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: .25fr auto;
+    column-gap: 1em;
+    color: #e5e5e5;
+    font-family: "M plus 1p";
+    margin-bottom: .5em;
+}
+
+/* project card icon container */
+/* .project-card-icon-container{} */
+
+/* project card icon */
+.project-card-icon{
+    font-size: 28px;
+    color: #e5e5e5;
+}
+
+/* project card info */
+/* .project-card-info{} */
+
+/* project card header */
+/* .project-card-header{} */
+
+/* project card header link */
+.project-card-header-link{
+    text-decoration: none;
+    color: #e5e5e5;
+    font-weight: 500;
+}
+
+.project-card-header-link:hover{
+    color: #24C8A7;
+}
+
+/* project card text */
+.project-card-text{
+    font-size: 14px;
+}
+
+/* project card list */
+.project-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    margin-top: .5em;
+}
+
+/* project card list item */
+.project-card-list-item{
+    list-style: none;
+}
+
+/* project card list item link */
+.project-card-list-item-link{
+    color: #e5e5e5;
+    text-decoration: none;
+    display: block;
+    padding: .2em .4em;
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.project-card-list-item-link:hover{
+    border: 2px solid #24C8A7;
+}

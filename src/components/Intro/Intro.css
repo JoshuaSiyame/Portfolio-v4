@@ -1,0 +1,92 @@
+/* General intro styles */
+#intro{
+    margin: 6em 0 2em 0;
+}
+
+/* Intro container */
+#intro-container{
+    padding: 0 1em;
+}
+
+/* image container */
+#image-container{}
+
+/* intro image */
+.intro-image{
+    display: block;
+    max-width: 150px;
+    border-radius: 3px;
+    border: 2px solid #e5e5e5;
+    padding: .3em;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+/* intro header */
+#intro-header{
+    color: #e5e5e5;
+    font-family: "M plus 1p";
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: .5em 0;
+}
+
+/* expertise list */
+#expertise-list{}
+
+/* intro list */
+.intro-list{
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+    margin: .25em 0;
+}
+
+/* intro list item */
+.intro-list-item{
+    list-style: none;
+    color: #e5e5e5;
+    font-family: "M plus 1p";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* lang list */
+#lang-list{
+    font-size: 13px;
+    opacity: .6;
+}
+
+/* social list */
+#social-lists{
+    margin: 1em 0;
+}
+
+/* intro list item icon */
+.intro-list-item-icon{
+    font-size: 25px;
+}
+
+/* Intro list item icon */
+.intro-list-item-icon-link{
+    color: #e5e5e5;
+}
+
+/* intro links */
+#intr-links{}
+
+/* intro list item link */
+.intro-list-item-link{
+    display: block;
+    text-decoration: none;
+    color: #e5e5e5;
+    border-radius: 3px;
+    border: 2px solid #e5e5e5;
+    padding: .2em .4em;
+}
+
+.intro-list-item-link:hover{
+    color: #24C8A7;
+    border: 2px solid #24C8A7;
+}
