@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>mleta.com/portfolios</a>
+                                <a href='' className='project-card-header-link'>Portfolios</a>
                             </h4>
                             <p className='project-card-text'>
                                 Create a stunning portfolio website that showcases your talents and
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>mleta.com/e-commerce</a>
+                                <a href='' className='project-card-header-link'>E-commerce</a>
                             </h4>
                             <p className='project-card-text'>
                                 Create a stunning e-commerce website that showcases your products and
