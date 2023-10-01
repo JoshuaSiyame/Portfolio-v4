@@ -4,8 +4,9 @@ import "./Projects.css";
 
 // import icons
 import { ImProfile } from "react-icons/im";
-import { AiTwotoneShop } from "react-icons/ai";
-import { HiUserGroup } from "react-icons/hi2"
+import { AiTwotoneShop, AiOutlineVideoCameraAdd } from "react-icons/ai";
+import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2"
+import { SiAwsorganizations } from "react-icons/si";
 
 // Projects component
 const Projects: React.FC = () => {
@@ -60,6 +61,50 @@ const Projects: React.FC = () => {
                     </div>
                     <div className='project-card'>
                         <div className='project-card-icon-container'>
+                            <HiMiniBugAnt className='project-card-icon' />
+                        </div>
+                        <div className='project-card-info'>
+                            <h4 className='project-card-header'>
+                                <a href='' className='project-card-header-link'>Web scrappers</a>
+                            </h4>
+                            <p className='project-card-text'>
+                                A MERN stack web scrapper application development with Puppeteer for headless
+                                browser automation, enabling data extraction and storage from websites.
+                            </p>
+                            <ol className='project-card-list'>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                </li>
+                                {/* <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Get One</a>
+                                </li> */}
+                            </ol>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <div className='project-card-icon-container'>
+                            <AiOutlineVideoCameraAdd className='project-card-icon' />
+                        </div>
+                        <div className='project-card-info'>
+                            <h4 className='project-card-header'>
+                                <a href='' className='project-card-header-link'>Video call app</a>
+                            </h4>
+                            <p className='project-card-text'>
+                                A video call application with PeerJs for end-to-end connection with another user for communication
+                                browser automation, enabling data extraction and storage from websites.
+                            </p>
+                            <ol className='project-card-list'>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                </li>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Get One</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <div className='project-card-icon-container'>
                             <HiUserGroup className='project-card-icon' />
                         </div>
                         <div className='project-card-info'>
@@ -83,6 +128,37 @@ const Projects: React.FC = () => {
                                 </li>
                                 <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Twitter</a>
+                                </li>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>GitHub</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <div className='project-card-icon-container'>
+                            <SiAwsorganizations className='project-card-icon' />
+                        </div>
+                        <div className='project-card-info'>
+                            <h4 className='project-card-header'>
+                                <a href='' className='project-card-header-link'>Mleta Inc.</a>
+                            </h4>
+                            <p className='project-card-text'>
+                                At Mleta, our mission is to harness the power of cutting-edge technology skills to drive innovation,
+                                solve complex challenges, and empower individuals and businesses to thrive in the digital age.
+                            </p>
+                            <ol className='project-card-list'>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Become a partner</a>
+                                </li>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Become a sponsor</a>
+                                </li>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Twitter</a>
+                                </li>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>YouTube</a>
                                 </li>
                                 <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>GitHub</a>
