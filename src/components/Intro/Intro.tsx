@@ -20,6 +20,7 @@ const Intro: React.FC = () => {
                 </div>
                 <h3 id='intro-header'>Joshua P Siyame</h3>
                 <ol id='expertise-list' className='intro-list'>
+                    <li className='intro-list-item'>Botanist</li>
                     <li className='intro-list-item'>Designer</li>
                     <li className='intro-list-item'>Software Engineer</li>
                     <li className='intro-list-item'>Solopreneur</li>
@@ -28,6 +29,10 @@ const Intro: React.FC = () => {
                     <li className='intro-list-item'>JavaScript</li>
                     <li className='intro-list-item'>/</li>
                     <li className='intro-list-item'>TypeScript</li>
+                    <li className='intro-list-item'>/</li>
+                    <li className='intro-list-item'>Python</li>
+                    <li className='intro-list-item'>/</li>
+                    <li className='intro-list-item'>C++</li>
                 </ol>
                 <ol id='social-lists' className='intro-list'>
                     <li className='intro-list-item'>
