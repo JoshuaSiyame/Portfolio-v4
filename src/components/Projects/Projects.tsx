@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                    <a href='https://joshuapsiyamev4.netlify.app' className='project-card-list-item-link'>sample projects</a>
                                 </li>
                                 <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Get One</a>
