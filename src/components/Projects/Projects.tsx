@@ -144,7 +144,7 @@ const Projects: React.FC = () => {
                                 <a href='' className='project-card-header-link'>TFFE Inc.</a>
                             </h4>
                             <p className='project-card-text'>
-                                At Mleta, our mission is to harness the power of cutting-edge technology skills to drive innovation,
+                                At TFFE, our mission is to harness the power of cutting-edge technology skills to drive innovation,
                                 solve complex challenges, and empower individuals and businesses to thrive in the digital age.
                             </p>
                             <ol className='project-card-list'>
