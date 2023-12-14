@@ -141,7 +141,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Mleta Inc.</a>
+                                <a href='' className='project-card-header-link'>TFFE Inc.</a>
                             </h4>
                             <p className='project-card-text'>
                                 At Mleta, our mission is to harness the power of cutting-edge technology skills to drive innovation,
