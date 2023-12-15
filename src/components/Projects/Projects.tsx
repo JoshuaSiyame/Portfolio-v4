@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
                             </ol>
                         </div>
                     </div>
-                    <div className='project-card'>
+                    {/* <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <AiOutlineVideoCameraAdd className='project-card-icon' />
                         </div>
@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
                                 </li>
                             </ol>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
