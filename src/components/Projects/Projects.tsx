@@ -88,14 +88,14 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Movie Download Site</a>
+                                <a href='https://thenetfleex.netlify.app/' target='blank' className='project-card-header-link'>Movie Download Site</a>
                             </h4>
                             <p className='project-card-text'>
                                 A MERN stack web application for entertainment purpose where any one can find favorite, trending, latest movies and tv-shows.
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                    <a href='https://thenetfleex.netlify.app/' target='blank' className='project-card-list-item-link'>sample projects</a>
                                 </li>
                                 {/* <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Get One</a>
