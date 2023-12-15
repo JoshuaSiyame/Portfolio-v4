@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
                                 </li>
                             </ol>
                         </div>
-                    </div> */}
+                    </div> */} 
                 </div>
             </div>
         </div>
