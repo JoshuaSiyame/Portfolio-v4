@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div id='about-container'>
         <h3 id='about-header'>About</h3>
         <p className='about-text'>
-          I'm Joshua P. Siyame, a full-stack developer with a passion for both Frontend and Backend
+          I'm Joshua P. Siyame(Age 24yrs), a full-stack developer with a passion for both Frontend and Backend
           development I have a deep understanding of the latest technologies and frameworks in
           the industry. Throughout my career, I have had the privilege of working with a diverse
           range of teams and have demonstrated a proven ability to adapt to different

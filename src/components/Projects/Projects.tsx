@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>E-commerce</a>
+                                <a href='https://zemafrocrafty.netlify.app' target="blank" className='project-card-header-link'>E-commerce</a>
                             </h4>
                             <p className='project-card-text'>
                                 Create a stunning e-commerce website that showcases your products and
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
                             </ol>
                         </div>
                     </div>
-                    <div className='project-card'>
+                    {/* <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <AiOutlineVideoCameraAdd className='project-card-icon' />
                         </div>
@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
                                 </li>
                             </ol>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
