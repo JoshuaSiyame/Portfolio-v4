@@ -69,16 +69,16 @@ const skillData = [
         skillTextValue: "Bootstrap",
         skillUrlValue: "https://getbootstrap.com/"
     },
-    {
-        key: "hardhat",
-        skillTextValue: "HardHat",
-        skillUrlValue: "https://hardhat.org/"
-    },
-    {
-        key: "web3",
-        skillTextValue: "Web3",
-        skillUrlValue: "https://ethereum.org/en/web3/"
-    },
+    // {
+    //     key: "hardhat",
+    //     skillTextValue: "HardHat",
+    //     skillUrlValue: "https://hardhat.org/"
+    // },
+    // {
+    //     key: "web3",
+    //     skillTextValue: "Web3",
+    //     skillUrlValue: "https://ethereum.org/en/web3/"
+    // },
     {
         key: "ci-cd",
         skillTextValue: "Continuous Integration and Delivery (CI/CD)",
