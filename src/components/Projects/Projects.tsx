@@ -7,6 +7,7 @@ import { ImProfile } from "react-icons/im";
 import { AiTwotoneShop, AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2"
 import { SiAwsorganizations } from "react-icons/si";
+import { TbMovie } from "react-icons/tb";
 
 // Projects component
 const Projects: React.FC = () => {
@@ -43,7 +44,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='https://zemafrocrafty.netlify.app' target="blank" className='project-card-header-link'>E-commerce</a>
+                                <a href='' target="blank" className='project-card-header-link'>E-commerce</a>
                             </h4>
                             <p className='project-card-text'>
                                 Create a stunning e-commerce website that showcases your products and
@@ -62,6 +63,28 @@ const Projects: React.FC = () => {
                     <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <HiMiniBugAnt className='project-card-icon' />
+                        </div>
+                        <div className='project-card-info'>
+                            <h4 className='project-card-header'>
+                                <a href='' className='project-card-header-link'>Web scrappers</a>
+                            </h4>
+                            <p className='project-card-text'>
+                                A MERN stack web scrapper application development with Puppeteer for headless
+                                browser automation, enabling data extraction and storage from websites.
+                            </p>
+                            <ol className='project-card-list'>
+                                <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                </li>
+                                {/* <li className='project-card-list-item'>
+                                    <a href='' className='project-card-list-item-link'>Get One</a>
+                                </li> */}
+                            </ol>
+                        </div>
+                    </div>
+                    <div className='project-card'>
+                        <div className='project-card-icon-container'>
+                            <TbMovie className='project-card-icon' />
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
