@@ -88,11 +88,10 @@ const Projects: React.FC = () => {
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Web scrappers</a>
+                                <a href='' className='project-card-header-link'>Movie Download Site</a>
                             </h4>
                             <p className='project-card-text'>
-                                A MERN stack web scrapper application development with Puppeteer for headless
-                                browser automation, enabling data extraction and storage from websites.
+                                A MERN stack web application for entertainment purpose.
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
