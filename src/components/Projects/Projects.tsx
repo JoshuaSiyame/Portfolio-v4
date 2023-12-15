@@ -91,7 +91,7 @@ const Projects: React.FC = () => {
                                 <a href='' className='project-card-header-link'>Movie Download Site</a>
                             </h4>
                             <p className='project-card-text'>
-                                A MERN stack web application for entertainment purpose.
+                                A MERN stack web application for entertainment purpose where any one can find favorite, trending, latest movies and tv-shows.
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
