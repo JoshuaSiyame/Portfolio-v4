@@ -91,8 +91,7 @@ const Projects: React.FC = () => {
                                 <a href='' className='project-card-header-link'>Web scrappers</a>
                             </h4>
                             <p className='project-card-text'>
-                                A MERN stack web scrapper application development with Puppeteer for headless
-                                browser automation, enabling data extraction and storage from websites.
+                                A MERN stack web application for entertainment purpose.
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
