@@ -62,6 +62,9 @@ const Intro: React.FC = () => {
                     </li>
                 </ol>
                 <ol id='intro-links' className='intro-list'>
+                <li className='intro-list-item'>
+                        <a href="https://docs.google.com/document/d/1XwivamqSt0lH2WYHlfJWK4ZBIpV7-XVb/edit?usp=drive_link&ouid=110990753748933052605&rtpof=true&sd=true" target='_blank' className='intro-list-item-link'>Resume</a>
+                    </li>
                     <li className='intro-list-item'>
                         <a href="/#contacts" className='intro-list-item-link'>Contacts</a>
                     </li>
