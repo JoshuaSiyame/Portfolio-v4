@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
                             </p>
                             <ol className='project-card-list'>
                                 <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>sample projects</a>
+                                    <a href='https://youthoutfitstudio.netlify.app' target="_blank" className='project-card-list-item-link'>sample projects</a>
                                 </li>
                                 <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Get One</a>
