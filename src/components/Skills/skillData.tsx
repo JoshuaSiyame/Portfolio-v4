@@ -10,6 +10,16 @@ const skillData = [
         skillUrlValue: "https://react.dev/"
     },
     {
+        key: "vuejs",
+        skillTextValue: "VueJs",
+        skillUrlValue: "https://vuejs.org/"
+    },
+    {
+        key: "flutter",
+        skillTextValue: "Flutter",
+        skillUrlValue: "https://flutter.dev/"
+    },
+    {
         key: "expressjs",
         skillTextValue: "ExpressJs",
         skillUrlValue: "https://expressjs.com/"
@@ -23,6 +33,11 @@ const skillData = [
         key: "mongodb",
         skillTextValue: "MongoDB",
         skillUrlValue: "https://www.mongodb.com/"
+    },
+    {
+        key: "mysql",
+        skillTextValue: "MySQL",
+        skillUrlValue: "https://www.mysql.com/"
     },
     {
         key: "javascript",
@@ -63,6 +78,11 @@ const skillData = [
         key: "styled-component",
         skillTextValue: "Styled-Component",
         skillUrlValue: "https://www.styled-components.com/"
+    },
+    {
+        key: "material-ui",
+        skillTextValue: "Material-UI",
+        skillUrlValue: "https://www.mui.com/"
     },
     {
         key: "bootstrap",
