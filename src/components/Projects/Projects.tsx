@@ -7,6 +7,7 @@ import { ImProfile } from "react-icons/im";
 import { AiTwotoneShop, AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2"
 import { SiAwsorganizations } from "react-icons/si";
+import { MdDashboard } from "react-icons/md";
 import { TbMovie } from "react-icons/tb";
 
 // Projects component
@@ -103,13 +104,13 @@ const Projects: React.FC = () => {
                             </ol>
                         </div>
                     </div>
-                    {/* <div className='project-card'>
+                    <div className='project-card'>
                         <div className='project-card-icon-container'>
-                            <AiOutlineVideoCameraAdd className='project-card-icon' />
+                            <MdDashboard className='project-card-icon' />
                         </div>
                         <div className='project-card-info'>
                             <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Video call app</a>
+                                <a href='' className='project-card-header-link'>Admin Dashboard</a>
                             </h4>
                             <p className='project-card-text'>
                                 A video call application with PeerJs for end-to-end connection with another user for communication
@@ -125,7 +126,7 @@ const Projects: React.FC = () => {
                             </ol>
                         </div>
                     </div>
-                    <div className='project-card'>
+                    {/* <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <HiUserGroup className='project-card-icon' />
                         </div>

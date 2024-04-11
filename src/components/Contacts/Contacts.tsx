@@ -64,8 +64,8 @@ const Contacts: React.FC = () => {
                     <h4 className='contact-sub-header-2'>Contacts</h4>
                     <ol className='data-list'>
                         <li className='data-list-item'><strong>Email: </strong>josh2023decoded@gmail.com</li>
-                        <li className='data-list-item'><strong>Tel: </strong>+xxx xxx xx xxx</li>
-                        <li className='data-list-item'><strong>Tel: </strong>+xxx xxx xx xxx</li>
+                        <li className='data-list-item'><strong>Tel: </strong>+255 675 381 482</li>
+                        <li className='data-list-item'><strong>Tel: </strong>+255 738 015 169</li>
                     </ol>
                 </div>
                 <div className='contact-data'>
