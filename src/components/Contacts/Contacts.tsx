@@ -81,8 +81,8 @@ const Contacts: React.FC = () => {
             },
         );
 
-        // const request = await axios.post("url", {fullName, email, message});
-
+        // preview variables
+        console.log()
         // clear the fields after sending message
         clearHandler();
     };
@@ -134,7 +134,7 @@ const Contacts: React.FC = () => {
                             </a>
                         </li>
                     </ol>
-                </div>
+                </div> 
                 <div id='contact-form-container'>
                     <form id='contact-form' onSubmit={handleFormSubmit}>
                         <div className='form-group'>
