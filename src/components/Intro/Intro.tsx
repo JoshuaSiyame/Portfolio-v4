@@ -29,10 +29,10 @@ const Intro: React.FC = () => {
                     <li className='intro-list-item'>JavaScript</li>
                     <li className='intro-list-item'>/</li>
                     <li className='intro-list-item'>TypeScript</li>
-                    <li className='intro-list-item'>/</li>
+                    {/* <li className='intro-list-item'>/</li>
                     <li className='intro-list-item'>Python</li>
                     <li className='intro-list-item'>/</li>
-                    <li className='intro-list-item'>C++</li>
+                    <li className='intro-list-item'>C++</li> */}
                 </ol>
                 <ol id='social-lists' className='intro-list'>
                     <li className='intro-list-item'>
