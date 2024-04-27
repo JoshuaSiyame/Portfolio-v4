@@ -16,7 +16,7 @@ const Intro: React.FC = () => {
         <div id='intro'>
             <div id='intro-container'>
                 <div id='image-container'>
-                    <img src={ImagePic} alt='' className='intro-image' />
+                    <img src={ImagePic} alt='' className='intro-image'/>
                 </div>
                 <h3 id='intro-header'>Joshua P Siyame</h3>
                 <ol id='expertise-list' className='intro-list'>
