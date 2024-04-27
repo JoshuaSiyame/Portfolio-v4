@@ -1,67 +1,87 @@
 // import modules/packages
-import React from 'react';
+import React from "react";
 import "./Projects.css";
 
 // import icons
 import { ImProfile } from "react-icons/im";
 import { AiTwotoneShop, AiOutlineVideoCameraAdd } from "react-icons/ai";
-import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2"
+import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2";
 import { SiAwsorganizations } from "react-icons/si";
 import { MdDashboard } from "react-icons/md";
 import { TbMovie } from "react-icons/tb";
 
 // Projects component
 const Projects: React.FC = () => {
-    return (
-        <div id='projects'>
-            <div id='projects-container'>
-                <h3 id='projects-header'>Projects</h3>
-                <div id="projects-card-container">
-                    <div className='project-card'>
-                        <div className='project-card-icon-container'>
-                            <ImProfile className='project-card-icon' />
-                        </div>
-                        <div className='project-card-info'>
-                            <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Portfolios</a>
-                            </h4>
-                            <p className='project-card-text'>
-                                Create a stunning portfolio website that showcases your talents and
-                                accomplishments, leaving a lasting impression on visitors.
-                            </p>
-                            <ol className='project-card-list'>
-                                <li className='project-card-list-item'>
-                                    <a href='https://joshuapsiyamev4.netlify.app' target='blank' className='project-card-list-item-link'>sample projects</a>
-                                </li>
-                                <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>Get One</a>
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div className='project-card'>
-                        <div className='project-card-icon-container'>
-                            <AiTwotoneShop className='project-card-icon' />
-                        </div>
-                        <div className='project-card-info'>
-                            <h4 className='project-card-header'>
-                                <a href='' target="blank" className='project-card-header-link'>E-commerce</a>
-                            </h4>
-                            <p className='project-card-text'>
-                                Create a stunning e-commerce website that showcases your products and
-                                services, leaving a lasting impression on visitors.
-                            </p>
-                            <ol className='project-card-list'>
-                                <li className='project-card-list-item'>
-                                    <a href='https://youthoutfitstudio.netlify.app' target="_blank" className='project-card-list-item-link'>sample projects</a>
-                                </li>
-                                <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>Get One</a>
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                    {/* <div className='project-card'>
+  return (
+    <div id="projects">
+      <div id="projects-container">
+        <h3 id="projects-header">Projects</h3>
+        <div id="projects-card-container">
+          <div className="project-card">
+            <div className="project-card-icon-container">
+              <ImProfile className="project-card-icon" />
+            </div>
+            <div className="project-card-info">
+              <h4 className="project-card-header">
+                <a href="" className="project-card-header-link">
+                  Portfolios
+                </a>
+              </h4>
+              <p className="project-card-text">
+                Create a stunning portfolio website that showcases your talents
+                and accomplishments, leaving a lasting impression on visitors.
+              </p>
+              <ol className="project-card-list">
+                <li className="project-card-list-item">
+                  <a
+                    href="https://joshuapsiyamev4.netlify.app"
+                    target="blank"
+                    className="project-card-list-item-link"
+                  >
+                    sample projects
+                  </a>
+                </li>
+                <li className="project-card-list-item">
+                  <a href="" className="project-card-list-item-link">
+                    Get One
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-card-icon-container">
+              <AiTwotoneShop className="project-card-icon" />
+            </div>
+            <div className="project-card-info">
+              <h4 className="project-card-header">
+                <a href="" target="blank" className="project-card-header-link">
+                  E-commerce
+                </a>
+              </h4>
+              <p className="project-card-text">
+                Create a stunning e-commerce website that showcases your
+                products and services, leaving a lasting impression on visitors.
+              </p>
+              <ol className="project-card-list">
+                <li className="project-card-list-item">
+                  <a
+                    href="https://youthoutfitstudio.netlify.app"
+                    target="_blank"
+                    className="project-card-list-item-link"
+                  >
+                    sample projects
+                  </a>
+                </li>
+                <li className="project-card-list-item">
+                  <a href="" className="project-card-list-item-link">
+                    Get One
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          {/* <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <HiMiniBugAnt className='project-card-icon' />
                         </div>
@@ -83,50 +103,99 @@ const Projects: React.FC = () => {
                             </ol>
                         </div>
                     </div> */}
-                    <div className='project-card'>
-                        <div className='project-card-icon-container'>
-                            <TbMovie className='project-card-icon' />
-                        </div>
-                        <div className='project-card-info'>
-                            <h4 className='project-card-header'>
-                                <a href='https://thenetfleex.netlify.app/' target='blank' className='project-card-header-link'>Movie Download Site</a>
-                            </h4>
-                            <p className='project-card-text'>
-                                A MERN stack web application for entertainment purpose where any one can find favorite, trending, latest movies and tv-shows.
-                            </p>
-                            <ol className='project-card-list'>
-                                <li className='project-card-list-item'>
-                                    <a href='https://thenetfleex.netlify.app/' target='blank' className='project-card-list-item-link'>sample projects</a>
-                                </li>
-                                {/* <li className='project-card-list-item'>
+          <div className="project-card">
+            <div className="project-card-icon-container">
+              <TbMovie className="project-card-icon" />
+            </div>
+            <div className="project-card-info">
+              <h4 className="project-card-header">
+                <a
+                  href="https://thenetfleex.netlify.app/"
+                  target="blank"
+                  className="project-card-header-link"
+                >
+                  Movie Download Site
+                </a>
+              </h4>
+              <p className="project-card-text">
+                A MERN stack web application for entertainment purpose where any
+                one can find favorite, trending, latest movies and tv-shows.
+              </p>
+              <ol className="project-card-list">
+                <li className="project-card-list-item">
+                  <a
+                    href="https://thenetfleex.netlify.app/"
+                    target="blank"
+                    className="project-card-list-item-link"
+                  >
+                    sample projects
+                  </a>
+                </li>
+                {/* <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Get One</a>
                                 </li> */}
-                            </ol>
-                        </div>
-                    </div>
-                    <div className='project-card'>
-                        <div className='project-card-icon-container'>
-                            <MdDashboard className='project-card-icon' />
-                        </div>
-                        <div className='project-card-info'>
-                            <h4 className='project-card-header'>
-                                <a href='' className='project-card-header-link'>Admin Dashboard</a>
-                            </h4>
-                            <p className='project-card-text'>
-                                A video call application with PeerJs for end-to-end connection with another user for communication
-                                browser automation, enabling data extraction and storage from websites.
-                            </p>
-                            <ol className='project-card-list'>
-                                <li className='project-card-list-item'>
-                                    <a href='' className='project-card-list-item-link'>sample projects</a>
-                                </li>
-                                <li className='project-card-list-item'>
+              </ol>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-card-icon-container">
+              <MdDashboard className="project-card-icon" />
+            </div>
+            <div className="project-card-info">
+              <h4 className="project-card-header">
+                <a href="" className="project-card-header-link">
+                  Admin Dashboard
+                </a>
+              </h4>
+              <p className="project-card-text">
+                A video call application with PeerJs for end-to-end connection
+                with another user for communication browser automation, enabling
+                data extraction and storage from websites.
+              </p>
+              <ol className="project-card-list">
+                <li className="project-card-list-item">
+                  <a href="" className="project-card-list-item-link">
+                    sample projects
+                  </a>
+                </li>
+                <li className="project-card-list-item">
+                  <a href="" className="project-card-list-item-link">
+                    Get One
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div className="project-card">
+            <div className="project-card-icon-container">
+              <MdDashboard className="project-card-icon" />
+            </div>
+            <div className="project-card-info">
+              <h4 className="project-card-header">
+                <a href="https://joshjsdev.netlify.app" target="_blank" className="project-card-header-link">
+                  E-Learning platform
+                </a>
+              </h4>
+              <p className="project-card-text">
+                Embark on a transformative journey with our e-learning blog,
+                guiding you from novice to proficient full-stack developer.
+                Explore curated resources, expert insights, and hands-on
+                tutorials, empowering you to master the intricacies of web
+                development at every stage.
+              </p>
+              <ol className="project-card-list">
+                <li className="project-card-list-item">
+                  <a href="https://joshjsdev.netlify.app" target="_blank" className="project-card-list-item-link">
+                    Get started
+                  </a>
+                </li>
+                {/* <li className='project-card-list-item'>
                                     <a href='' className='project-card-list-item-link'>Get One</a>
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                    {/* <div className='project-card'>
+                                </li> */}
+              </ol>
+            </div>
+          </div>
+          {/* <div className='project-card'>
                         <div className='project-card-icon-container'>
                             <HiUserGroup className='project-card-icon' />
                         </div>
@@ -188,11 +257,11 @@ const Projects: React.FC = () => {
                                 </li>
                             </ol>
                         </div>
-                    </div> */} 
-                </div>
-            </div>
+                    </div> */}
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
