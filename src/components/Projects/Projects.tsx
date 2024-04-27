@@ -7,7 +7,7 @@ import { ImProfile } from "react-icons/im";
 import { AiTwotoneShop, AiOutlineVideoCameraAdd } from "react-icons/ai";
 import { HiUserGroup, HiMiniBugAnt } from "react-icons/hi2";
 import { SiAwsorganizations } from "react-icons/si";
-import { MdDashboard } from "react-icons/md";
+import { MdDashboard, MdSchool } from "react-icons/md";
 import { TbMovie } from "react-icons/tb";
 
 // Projects component
@@ -168,7 +168,7 @@ const Projects: React.FC = () => {
           </div>
           <div className="project-card">
             <div className="project-card-icon-container">
-              <MdDashboard className="project-card-icon" />
+              <MdSchool className="project-card-icon" />
             </div>
             <div className="project-card-info">
               <h4 className="project-card-header">
